@@ -1,0 +1,38 @@
+.carditem {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  width: 300px;
+  display: inline-block;
+}
+
+.carditem .itemimg {
+  width: 100%;
+}
+
+.carditem .info .price {
+  font-weight: bold;
+  color: #ff5733;
+}
+
+.carditem .info .stock {
+  color: #666;
+}
+
+.carditem .itemfooter .option {
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.carditem .itemfooter .option:hover {
+  background-color: #3579d6;
+}
