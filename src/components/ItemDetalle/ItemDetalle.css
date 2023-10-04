@@ -1,61 +1,49 @@
-/* Estilos para el contenedor de la tarjeta de detalle */
 .item-card-container {
-  max-width: 400px; /* Ancho máximo para la tarjeta */
-  margin: 0 auto; /* Centrar la tarjeta horizontalmente en la pantalla */
-  padding: 20px; /* Espaciado interno del contenedor */
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
-/* Estilos para la tarjeta de detalle */
 .item-detail.item-card {
-  border: 1px solid #ccc; /* Borde de la tarjeta */
-  border-radius: 10px; /* Borde redondeado */
-  padding: 20px; /* Espacio interno de la tarjeta */
-  background-color: #f9f9f9; /* Color de fondo de la tarjeta */
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #f9f9f9;
 }
 
-/* Estilos para el título del producto */
 .item-detail.item-card h2 {
-  font-size: 24px; /* Tamaño de fuente */
-  color: #333; /* Color del texto */
+  font-size: 24px;
+  color: #333;
 }
 
-/* Estilos para la imagen del producto */
 .item-detail.item-card img {
-  max-width: 100%; /* Ajustar el ancho de la imagen al 100% de la tarjeta */
-  max-height: 300px; /* Altura máxima deseada para la imagen (ajusta según tus preferencias) */
-  height: auto; /* Espacio inferior */
+  max-width: 100%;
+  max-height: 300px;
+  height: auto;
 }
 
-
-
-/* Estilos para la descripción del producto */
 .item-detail.item-card .description {
-  font-size: 16px; /* Tamaño de fuente */
-  color: #666; /* Color del texto */
+  font-size: 16px;
+  color: #666;
 }
 
-/* Estilos para el precio del producto */
 .item-detail.item-card .price {
-  font-size: 20px; /* Tamaño de fuente */
-  font-weight: bold; /* Texto en negrita */
-  color: #ff5733; /* Color personalizado para el precio */
+  font-size: 20px;
+  font-weight: bold;
+  color: #ff5733;
 }
 
-/* Estilos para el botón de agregar al carrito */
 .item-detail.item-card .add-to-cart-button {
-  background-color: #4285f4; /* Color de fondo */
-  color: white; /* Color del texto */
-  border: none; /* Borde */
-  padding: 10px 20px; /* Espaciado interno */
-  cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
-  border-radius: 5px; /* Borde redondeado */
-  margin-top: 10px; /* Espacio superior */
-  text-decoration: none; /* Quitar subrayado */
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+  text-decoration: none;
 }
 
-/* Estilos para el botón de agregar al carrito en el hover */
 .item-detail.item-card .add-to-cart-button:hover {
-  background-color: #3579d6; /* Color de fondo al pasar el cursor */
+  background-color: #3579d6;
 }
-
-  
